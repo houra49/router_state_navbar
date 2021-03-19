@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.title{
+    background-color: #9be3de;
+    text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title h1{
+    margin:0;
+    padding:5px;
+    color:white;
+    font-family: 'Lobster', cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hellButton {
+    font-family: "Lobster";
+    font-size: 15px;
+    background: #9be3de;
+    border:2px solid #ffbbcc;
+    display: block;
+    margin: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    line-height: 45px;
+    color: #fffdf9;
+    cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dunkelButton{
+    font-family: "Lobster";
+    font-size: 15px;
+    background: #5eb7b7;
+    border: 2px solid #ffbbcc;
+    display: block;
+    height: 50px;
+    margin: 10p;
+    padding: 2px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    line-height: 45px;
+    color: #fffdf9;
+    cursor: pointer;
 }
